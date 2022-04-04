@@ -40,7 +40,7 @@ Git repository : [WaterPlease/OpenGL_TOY_PRJ (github.com)](https://github.com/Wa
 
 ####     2. 레이트레이싱
 
-![mirro](./img/\RAYTRACER/mirror_raytrace.png)
+![mirro](./img/RAYTRACER/mirror_raytrace.png)
 
 **Keyword** : BVH, 레이트레이싱, 멀티코어
 
