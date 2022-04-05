@@ -25,10 +25,12 @@
 
 **Keyword** : deffered rendering, shadow map, screen space reflection, PBR, tessellation
 
+Detailed docs : [doc (waterplease.github.io)](https://waterplease.github.io/OpenGL_TOY_PRJ/)
+
 Git repository : [WaterPlease/OpenGL_TOY_PRJ (github.com)](https://github.com/WaterPlease/OpenGL_TOY_PRJ)
 
 <details>
-    <summary>접기/펼치기</summary>
+    <summary>설명</summary>
     <p>
         그래픽스 강의를 수강한 이후 관련 분야에 흥미가 생겨 더 공부해볼 목적으로 진행한 토이 프로젝트입니다. 흥미로운 기술들을 발견하면 공부하고 그것을 해당 프로젝트에 적용 시켜왔습니다.
     </p>
@@ -49,15 +51,16 @@ Feature <br/>
 </details>
 
 
+
 ####     2. 레이트레이싱
 
 <img src="./img/RAYTRACER/mirror_raytrace.png" alt="mirro" style="zoom: 75%;" />
 
 **Keyword** : BVH, 레이트레이싱, 멀티코어
 
-Git repository :  [WaterPlease/RAYTRACING (github.com)](https://github.com/WaterPlease/RAYTRACING)
-
 Detailed documentation : https://github.com/WaterPlease/RAYTRACING/raw/main/HW5.pdf
+
+Git repository :  [WaterPlease/RAYTRACING (github.com)](https://github.com/WaterPlease/RAYTRACING)
 
 <details>
     <summary>설명</summary>
@@ -113,4 +116,3 @@ link : https://sdasd-asdsad.github.io/CK3DNA_Edit/
     <summary>접기/펼치기</summary>
 ??인 크루세이더 킹즈3의 캐릭터 외형 수정을 위한 DNA 에디터 입니다.
 </details>
-
