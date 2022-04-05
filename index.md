@@ -30,7 +30,8 @@ Git repository : [WaterPlease/OpenGL_TOY_PRJ (github.com)](https://github.com/Wa
 <details>
     <summary>접기/펼치기</summary>
     <p>
-        그래픽스 강의를 수강한 이후 관련 분야에 흥미가 생겨 더 공부해볼 목적으로 진행한 토이 프로젝트입니다. 흥미로운 기술들을 발견하면 공부하고 그것을 해당 프로젝트에 적용 시켜왔습니다.
+        그래픽스 강의를 수강한 이후 관련 분야에 흥미가 생겨 더 공부해볼 목적으로 진행한 토이 프로젝트입니다. 흥미로운 기술들을 발견하면 공부하고 그것을 해당 프로젝트에 적용 시켜왔습니다.<br/>
+이후에도 지속적으로 공부하면서 다양한 기능을 추가할 예정입니다.
     </p>
     <p>
 Feature <br/>
@@ -62,7 +63,7 @@ Detailed documentation : https://github.com/WaterPlease/RAYTRACING/raw/main/HW5.
 <details>
     <summary>설명</summary>
 <p>
-CPU 기반 레이트레이서 구현
+그래픽스 강의 마지막 과제 결과물입니다. 한 학기 동안 배운 여러 내용과 과제 결과물을 기반으로 레이트레이서를 작성하였습니다. 때문에 한 학기 동안 그래픽스 강의를 들으며 학습한 여러 내용들을 재차 확인할 수 있었습니다. 또한 최적화를 위해 조사해보며 KD tree, Octree, bsp와 같은 공간분할 방법들을 익혀볼 수 있었습니다.
 </p>
 <p>
 Feature<br/>
