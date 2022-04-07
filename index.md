@@ -1,4 +1,4 @@
-<h1 style="text-align: center; font-size:xx-large">???</h1>
+<h1 style="text-align: center; font-size:xx-large">KHJ's information</h1>
 
 ## About Me
 
@@ -25,11 +25,11 @@
 
 **Keyword** : deffered rendering, shadow map, screen space reflection, PBR, tessellation
 
-Detailed docs : [doc (waterplease.github.io)](https://waterplease.github.io/OpenGL_TOY_PRJ/)
+**Detailed docs** : [doc (waterplease.github.io)](https://waterplease.github.io/OpenGL_TOY_PRJ/)
 
-Git repository : [WaterPlease/OpenGL_TOY_PRJ (github.com)](https://github.com/WaterPlease/OpenGL_TOY_PRJ)
+**Git repository** : [WaterPlease/OpenGL_TOY_PRJ (github.com)](https://github.com/WaterPlease/OpenGL_TOY_PRJ)
 
-<details>
+<details open>
     <summary>설명</summary>
     <p>
         그래픽스 강의를 수강한 이후 관련 분야에 흥미가 생겨 더 공부해볼 목적으로 진행한 토이 프로젝트입니다. 흥미로운 기술들을 발견하면 공부하고 그것을 해당 프로젝트에 적용 시켜왔습니다.<br/>
@@ -40,7 +40,7 @@ Feature <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;- Deffered rendering<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;- Screen space reflection<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;- Shadow mapping<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;- jittered PCF with 64 samples at most.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- jittered PCF with 64 samples at most.<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;- Tone mapping, gamma correction<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;- Bloom effect<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;- PBR<br/>
@@ -53,17 +53,18 @@ Feature <br/>
 
 
 
+
 ####     2. 레이트레이싱
 
 <img src="./img/RAYTRACER/mirror_raytrace.png" alt="mirro" style="zoom: 75%;" />
 
 **Keyword** : BVH, 레이트레이싱, 멀티코어
 
-Detailed documentation : https://github.com/WaterPlease/RAYTRACING/raw/main/HW5.pdf
+**Detailed documentation** : https://github.com/WaterPlease/RAYTRACING/raw/main/HW5.pdf
 
-Git repository :  [WaterPlease/RAYTRACING (github.com)](https://github.com/WaterPlease/RAYTRACING)
+**Git repository** :  [WaterPlease/RAYTRACING (github.com)](https://github.com/WaterPlease/RAYTRACING)
 
-<details>
+<details open>
     <summary>설명</summary>
 <p>
 그래픽스 강의 마지막 과제 결과물입니다. 한 학기 동안 배운 여러 내용과 과제 결과물을 기반으로 레이트레이서를 작성하였습니다. 때문에 한 학기 동안 그래픽스 강의를 들으며 학습한 여러 내용들을 재차 확인할 수 있었습니다. 또한 최적화를 위해 조사해보며 KD tree, Octree, bsp와 같은 공간분할 방법들을 익혀볼 수 있었습니다.
@@ -88,13 +89,16 @@ Feature<br/>
 </p>
 </details>
 
+
 #### 3. Matrix multiplication accelerator on FPGA
 
 ![hdc](./img/HDC/hdc.png)
 
-Git repository : [sdasd-asdsad/prj_v0 (github.com)](https://github.com/sdasd-asdsad/prj_v0#mlp1)
+**Git repository** : [sdasd-asdsad/prj_v0 (github.com)](https://github.com/sdasd-asdsad/prj_v0#mlp1)
 
-keyword : verilog, MLP, matrix multiplication
+**keyword** : verilog, MLP, matrix multiplication
+
+하드웨어 설계 강의 학기 팀 프로젝트입니다. MLP 연산 가속을 위한 하드웨어를 설계 및 소프트웨어에 적용하는 것을 목표로 진행한 프로젝트입니다.
 
 담당한 부분
 
@@ -115,5 +119,6 @@ link : https://sdasd-asdsad.github.io/CK3DNA_Edit/
 
 <details>
     <summary>접기/펼치기</summary>
-??인 크루세이더 킹즈3의 캐릭터 외형 수정을 위한 DNA 에디터 입니다.
+크루세이더 킹즈3의 캐릭터 외형 수정을 위한 DNA 에디터 입니다.
 </details>
+
