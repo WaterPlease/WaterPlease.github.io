@@ -37,19 +37,20 @@
     </p>
     <p>
 Feature <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;- Deffered rendering<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;- Screen space reflection<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;- Shadow mapping<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- jittered PCF with 64 samples at most.<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;- Tone mapping, gamma correction<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;- Bloom effect<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;- PBR<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;- Normal mapping<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;- tessellation<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;- LOD<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;- view cone culling<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;- Deffered rendering
+&nbsp;&nbsp;&nbsp;&nbsp;- Screen space reflection
+&nbsp;&nbsp;&nbsp;&nbsp;- Shadow mapping
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- jittered PCF with 64 samples at most.
+&nbsp;&nbsp;&nbsp;&nbsp;- Tone mapping, gamma correction
+&nbsp;&nbsp;&nbsp;&nbsp;- Bloom effect
+&nbsp;&nbsp;&nbsp;&nbsp;- PBR
+&nbsp;&nbsp;&nbsp;&nbsp;- Normal mapping
+&nbsp;&nbsp;&nbsp;&nbsp;- tessellation
+&nbsp;&nbsp;&nbsp;&nbsp;- LOD
+&nbsp;&nbsp;&nbsp;&nbsp;- view cone culling
     </p>
 </details>
+
 
 
 
@@ -71,23 +72,24 @@ Feature <br/>
 </p>
 <p>
 Feature<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;- BVH for acceleration<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;- backward ray tracing<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- reflection<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- refraction<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- shadow<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- distributed raytracing<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- multisampling<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- soft shadow<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- rough mirror<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;- .obj file import<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;- scene import & viewer<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- swept surface<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- spline curve and bezier curve<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;- phong illumination<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;- multicore support<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;- BVH for acceleration
+&nbsp;&nbsp;&nbsp;&nbsp;- backward ray tracing
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- reflection<
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- refraction
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- shadow
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- distributed raytracing
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- multisampling
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- soft shadow
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- rough mirror
+&nbsp;&nbsp;&nbsp;&nbsp;- .obj file import
+&nbsp;&nbsp;&nbsp;&nbsp;- scene import & viewer
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- swept surface
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- spline curve and bezier curve
+&nbsp;&nbsp;&nbsp;&nbsp;- phong illumination
+&nbsp;&nbsp;&nbsp;&nbsp;- multicore support
 </p>
 </details>
+
 
 
 #### 3. Matrix multiplication accelerator on FPGA
@@ -121,4 +123,3 @@ link : https://sdasd-asdsad.github.io/CK3DNA_Edit/
     <summary>접기/펼치기</summary>
 크루세이더 킹즈3의 캐릭터 외형 수정을 위한 DNA 에디터 입니다.
 </details>
-
