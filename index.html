@@ -22,8 +22,6 @@ body.typora-export { padding-left: 30px; padding-right: 30px; }
 @media screen and (max-width: 500px) {
   body.typora-export { padding-left: 0px; padding-right: 0px; }
   #write { padding-left: 20px; padding-right: 20px; }
-  .CodeMirror-sizer { margin-left: 0px !important; }
-  .CodeMirror-gutters { display: none !important; }
 }
 #write li > figure:last-child { margin-bottom: 0.5rem; }
 #write ol, #write ul { position: relative; }
@@ -51,7 +49,7 @@ sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inh
 #write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
 figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
 figure > table { margin: 0px; }
-tr { break-inside: avoid; break-after: auto; }
+thead, tr { break-inside: avoid; break-after: auto; }
 thead { display: table-header-group; }
 table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
 table.md-table td { min-width: 32px; }
@@ -73,6 +71,7 @@ div.hr:focus { cursor: none; }
 #write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
 .md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
 .CodeMirror-line, twitterwidget { break-inside: avoid; }
+svg { break-inside: avoid; }
 .footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
 .footnotes + .footnotes { margin-top: 0px; }
 .md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
@@ -87,7 +86,7 @@ blockquote > :first-child, li > :first-child { margin-top: 0px; }
 #write .footnote-line { white-space: pre-wrap; }
 @media print {
   body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
-  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; padding-bottom: 0px !important; }
   .typora-export * { -webkit-print-color-adjust: exact; }
   .typora-export #write { break-after: avoid; }
   .typora-export #write::after { height: 0px; }
@@ -457,11 +456,8 @@ code {
     html {
         font-size: 13px;
     }
-    table,
     pre {
         page-break-inside: avoid;
-    }
-    pre {
         word-wrap: break-word;
     }
 }
@@ -593,7 +589,7 @@ header, .context-menu, .megamenu-content, footer{
 </style><title>index</title>
 </head>
 <body class='typora-export os-windows'><div class='typora-export-content'>
-<div id='write'  class=''><h1 style="text-align: center; font-size:xx-large">KHJ's information</h1><h2 id='about-me'><span>About Me</span></h2><figure><table><thead><tr><th style='text-align:center;' ><span>이름</span></th><th style='text-align:center;' ><span>주소</span></th><th style='text-align:center;' ><span>생년월일</span></th></tr></thead><tbody><tr><td style='text-align:center;' ><span>권혁진</span></td><td style='text-align:center;' ><span>경기도 성남시</span></td><td style='text-align:center;' ><span>1996.07.12</span></td></tr><tr><td style='text-align:center;' ><span>연락처</span></td><td style='text-align:center;' ><span>이메일</span></td><td style='text-align:center;' ><span>학력</span></td></tr><tr><td style='text-align:center;' ><span>010-4779-6077</span></td><td style='text-align:center;' ><a href='mailto:kwonhuckjin94@gmail.com' target='_blank' class='url'>kwonhuckjin94@gmail.com</a></td><td style='text-align:center;' ><span>서울대학교 컴퓨터 공학부</span></td></tr></tbody></table></figure><h2 id='skills'><span>Skills</span></h2><ul><li><p><span>Langs</span></p><ul><li><span>C</span></li><li><span>C++</span></li><li><span>python</span></li></ul></li><li><p><span>Stack</span></p><ul><li><span>OpenGL</span></li></ul></li></ul><h2 id='project'><span>Project</span></h2><h4 id='1-opengl-toy-project'><span>1. OpenGL toy project</span></h4><p><img src="./img/OPENGL_TOY_PROJECT/opengl.webp" referrerpolicy="no-referrer" alt="opengl"></p><p><strong><span>Keyword</span></strong><span> : deffered rendering, shadow map, screen space reflection, PBR, tessellation</span></p><p><strong><span>Detailed docs</span></strong><span> : </span><a href='https://waterplease.github.io/OpenGL_TOY_PRJ/'><span>doc (waterplease.github.io)</span></a></p><p><strong><span>Git repository</span></strong><span> : </span><a href='https://github.com/WaterPlease/OpenGL_TOY_PRJ'><span>WaterPlease/OpenGL_TOY_PRJ (github.com)</span></a></p><details open="">
+<div id='write'  class=''><h1 style="text-align: center; font-size:xx-large">KHJ's information</h1><h2 id='about-me'><span>About Me</span></h2><figure><table><thead><tr><th style='text-align:center;' ><span>이름</span></th><th style='text-align:center;' ><span>주소</span></th><th style='text-align:center;' ><span>생년월일</span></th></tr></thead><tbody><tr><td style='text-align:center;' ><span>권혁진</span></td><td style='text-align:center;' ><span>경기도 성남시</span></td><td style='text-align:center;' ><span>1996.07.12</span></td></tr><tr><td style='text-align:center;' ><span>연락처</span></td><td style='text-align:center;' ><span>이메일</span></td><td style='text-align:center;' ><span>학력</span></td></tr><tr><td style='text-align:center;' ><span>010-4779-6077</span></td><td style='text-align:center;' ><a href='mailto:kwonhuckjin94@gmail.com' target='_blank' class='url'>kwonhuckjin94@gmail.com</a></td><td style='text-align:center;' ><span>서울대학교 컴퓨터 공학부</span></td></tr></tbody></table></figure><h2 id='skills'><span>Skills</span></h2><ul><li><p><span>Langs</span></p><ul><li><span>C</span></li><li><span>C++</span></li><li><span>python</span></li></ul></li><li><p><span>Stack</span></p><ul><li><span>OpenGL</span></li></ul></li></ul><h2 id='project'><span>Project</span></h2><h4 id='1-opengl-toy-project'><span>1. OpenGL toy project</span></h4><p><img src="./img/OPENGL_TOY_PROJECT/opengl.webp" referrerpolicy="no-referrer" alt="opengl"></p><p><strong><span>Keyword</span></strong><span> : clustered deferred rendering, SSR, Shadow map, PCF, Bloom effect, PBR, Normal mapping, tessellation</span></p><p><strong><span>Detailed docs</span></strong><span> : </span><a href='https://waterplease.github.io/OpenGL_TOY_PRJ/'><span>doc (waterplease.github.io)</span></a></p><p><strong><span>Git repository</span></strong><span> : </span><a href='https://github.com/WaterPlease/OpenGL_TOY_PRJ'><span>WaterPlease/OpenGL_TOY_PRJ (github.com)</span></a></p><details open="">
     <summary>설명</summary>
     <p>
         그래픽스 강의를 수강한 이후 관련 분야에 흥미가 생겨 더 공부해볼 목적으로 진행한 토이 프로젝트입니다. 흥미로운 기술들을 발견하면 공부하고 그것을 해당 프로젝트에 적용 시켜왔습니다.
@@ -601,7 +597,7 @@ header, .context-menu, .megamenu-content, footer{
     </p>
     <p>
 Features <br>
-&nbsp;&nbsp;&nbsp;&nbsp;- Deffered rendering
+&nbsp;&nbsp;&nbsp;&nbsp;- Clustered deffered rendering
 &nbsp;&nbsp;&nbsp;&nbsp;- Screen space reflection
 &nbsp;&nbsp;&nbsp;&nbsp;- Shadow mapping
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- jittered PCF with 64 samples at most.

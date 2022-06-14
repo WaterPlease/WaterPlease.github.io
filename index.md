@@ -23,7 +23,7 @@
 
 ![opengl](./img/OPENGL_TOY_PROJECT/opengl.webp)
 
-**Keyword** : deffered rendering, shadow map, screen space reflection, PBR, tessellation
+**Keyword** : clustered deferred rendering, SSR, Shadow map, PCF, Bloom effect, PBR, Normal mapping, tessellation
 
 **Detailed docs** : [doc (waterplease.github.io)](https://waterplease.github.io/OpenGL_TOY_PRJ/)
 
@@ -37,7 +37,7 @@
     </p>
     <p>
 Features <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;- Deffered rendering
+&nbsp;&nbsp;&nbsp;&nbsp;- Clustered deffered rendering
 &nbsp;&nbsp;&nbsp;&nbsp;- Screen space reflection
 &nbsp;&nbsp;&nbsp;&nbsp;- Shadow mapping
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- jittered PCF with 64 samples at most.
@@ -50,6 +50,7 @@ Features <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;- view cone culling
     </p>
 </details>
+
 
 
 
