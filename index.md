@@ -19,6 +19,33 @@
 
 ## Project
 
+#### 0. Unreal TPS Practice
+
+![](img\UnrealTPS\UnrealTPS.png)
+
+**Keyword** : Unreal Engine 4, Inverse kinetics
+
+**Git repository** : [WaterPlease/UnrealTPSPractice (github.com)](https://github.com/WaterPlease/UnrealTPSPractice)
+
+<details open>
+    <summary>설명</summary>
+    <p>
+        언리얼 엔진에 익숙해지기 위한 학습과 포토폴리오 목적으로 작성한 아레나 형식의 TPS 게임입니다. 다양한 게임들은 참고하여 필수적인 기능 위주로 구현하였습니다.
+    </p>
+    <p>
+주요 기능 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;- 스프레드 반응 크로스헤어
+&nbsp;&nbsp;&nbsp;&nbsp;- 3D UI
+&nbsp;&nbsp;&nbsp;&nbsp;- Inverse Kinetics
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 지면에 반응하는 다리       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 총기에 따른 왼손의 위치
+&nbsp;&nbsp;&nbsp;&nbsp;- 원거리 적의 Deflection shooting
+    </p>
+</details>
+
+
+
+
+
 ####     1. OpenGL toy project
 
 ![opengl](./img/OPENGL_TOY_PROJECT/opengl.webp)
@@ -109,18 +136,3 @@ Features<br/>
    - 두 floating point 값의 곱을 제외한 모든 코드 작성
 2. transforming convolution into matrix multiplication
 3. support hardware acceleration for matrix multiplication
-
-####     4. CK3 DNA Editor on web
-
-![](./img/CK3_DNA_EDITOR/ckdna1.png)
-
-![](./img/CK3_DNA_EDITOR/ckdna2.png)
-
-link : https://sdasd-asdsad.github.io/CK3DNA_Edit/
-
-- Keyword : base64
-
-<details>
-    <summary>접기/펼치기</summary>
-크루세이더 킹즈3의 캐릭터 외형 수정을 위한 DNA 에디터 입니다.
-</details>
