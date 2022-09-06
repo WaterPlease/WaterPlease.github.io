@@ -20,7 +20,7 @@
 
 #### 0. Path tracing on GPU
 
-![](./img/PathTracer/reflection2.png)
+![](./img/PathTracer/refraction.png)
 
 **Keyword** : Path tracing, monte carlo integration, Importance sampling, PBR, BVH, CUDA
 
@@ -32,6 +32,7 @@
 Features <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;- PBR<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Specular BRDF<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - refractive BRDF<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;- Path tracing using Monte Carlo integration<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Importance sampling<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;- Next event estimation<br/>
@@ -39,11 +40,11 @@ Features <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;- Bounding Volume Hierarchy for accelerating ray intersection search<br/>
     </p>
 TODO<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;- Add refraction BRDF<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;- Bidirection Path tracing<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;- Fully working scene editor<br/>
     </p>
 </details>
+
 
 
 
@@ -136,4 +137,3 @@ Features<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;- multicore support<br/>
 </p>
 </details>
-
